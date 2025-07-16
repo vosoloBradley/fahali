@@ -122,7 +122,7 @@ export const Contact = () => {
                 <div>
                   <p className="text-xl font-semibold text-gray-900 mb-1">Email</p>
                   <a href="mailto:info@fahali.com" className="text-gray-600 hover:text-[#FF10F0] transition-colors">
-                    info@fahali.com
+                    gaslink24@gmail.com
                   </a>
                 </div>
               </div>

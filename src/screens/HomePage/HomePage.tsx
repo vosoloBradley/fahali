@@ -398,7 +398,7 @@ export const HomePage = (): JSX.Element => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Our Location</h4>
-                    <p className="text-gray-600">123 Construction Way, Industrial Area, Nairobi, Kenya</p>
+                    <p className="text-gray-600">Nyali , Mombasa , Kenya</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -407,7 +407,7 @@ export const HomePage = (): JSX.Element => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Phone Number</h4>
-                    <p className="text-gray-600">+254 700 000000</p>
+                    <p className="text-gray-600">+254 728544518</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -416,7 +416,7 @@ export const HomePage = (): JSX.Element => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email Address</h4>
-                    <p className="text-gray-600">info@fahaliengineering.com</p>
+                    <p className="text-gray-600">gaslink24@gmail.com</p>
                   </div>
                 </div>
               </div>
