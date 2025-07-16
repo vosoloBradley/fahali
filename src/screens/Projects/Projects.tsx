@@ -91,22 +91,6 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* Project Card 6 */}
-        <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <div className="aspect-w-16 aspect-h-9 mb-4">
-            <img 
-              src="/proj/Bazaar 1.jpg"
-              alt="Bazaar 1"
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Bazaar 1</h2>
-          <p className="text-gray-600 mb-4">Modern offices with modern amenities and green features</p>
-          <div className="flex items-center space-x-2 text-gray-500">
-            <span>Completion: 2024</span>
-          </div>
-        </div>
-
         {/* Project Card 7 */}
         <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
           <div className="aspect-w-16 aspect-h-9 mb-4">
