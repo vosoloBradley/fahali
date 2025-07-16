@@ -61,13 +61,6 @@ export const HomePage = (): JSX.Element => {
   // Project portfolio data
   const projects = [
     {
-      title: "Bazaar Shopping Complex",
-      category: "Commercial",
-      image: "/proj/Bazaar 1.jpg",
-      description: "Modern retail development with integrated commercial spaces",
-      completion: "2023"
-    },
-    {
       title: "Greenwood Villa",
       category: "Residential",
       image: "/proj/Greenwood villa.jpg",
