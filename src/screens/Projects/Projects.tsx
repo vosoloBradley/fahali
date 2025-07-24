@@ -49,7 +49,7 @@ export const Projects = () => {
                 onClick={() => handleViewDetails(project.id)}
                 className="mt-4 w-[40%] mx-auto px-6 py-2.5 bg-transparent border-1.5 border-[#FF13F0] text-[#FF13F0] rounded-lg hover:bg-[#FF13F0]/10 transition-all duration-300 font-medium relative overflow-hidden group"
               >
-                <span className="relative z-10">View Details</span>
+                <span className="relative z-10">View</span>
                 <span className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </button>
             </div>
