@@ -191,7 +191,7 @@ export const HomePage: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/certifications">
               <Button 
-                className="bg-[#FF10F0] hover:bg-[#e000d0] text-white px-8 py-6 text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105"
+                className="bg-[#FF10F0] hover:bg-[#e000d0] text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 text-base sm:text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 w-full sm:w-auto"
               >
                 Learn More About Us
               </Button>
@@ -199,7 +199,7 @@ export const HomePage: React.FC = () => {
             <Button 
               onClick={handleTalkToExperts}
               variant="outline"
-              className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105"
+              className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 text-base sm:text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 w-full sm:w-auto"
             >
               Talk to Our Experts
             </Button>
@@ -261,7 +261,7 @@ export const HomePage: React.FC = () => {
               </p>
               <Link to="/certifications" className="flex justify-center">
                 <Button 
-                  className="bg-[#FF10F0] hover:bg-[#e000d0] text-white px-8 py-6 text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 w-[40%]"
+                  className="bg-[#FF10F0] hover:bg-[#e000d0] text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 text-base sm:text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 w-full sm:w-[60%] md:w-[50%] lg:w-[40%]"
                   onClick={scrollToTop}
                 >
                   Learn More About Us
@@ -370,7 +370,7 @@ export const HomePage: React.FC = () => {
             </Button>
             <Button 
               variant="outline"
-              className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105"
+              className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 text-base sm:text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 w-full sm:w-auto"
               onClick={handleTalkToExperts}
             >
               Talk to Our Experts
