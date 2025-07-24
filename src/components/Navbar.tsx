@@ -6,7 +6,7 @@ import { Button } from './ui/button';
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isMenuTransitioning, setIsMenuTransitioning] = useState(false);
+  const [, setIsMenuTransitioning] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 

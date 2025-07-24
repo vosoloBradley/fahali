@@ -1,1 +1,3 @@
-export { ExpertsPage } from "./ExpertsPage";
+import ExpertsPage from "./ExpertsPage";
+
+export default ExpertsPage;

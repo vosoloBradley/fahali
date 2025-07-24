@@ -1,4 +1,6 @@
-import { useNavigate } from 'react-router-dom';
+import * as React from 'react';
+import { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 import { 
   BuildingIcon,
   HardHatIcon,
@@ -8,25 +10,26 @@ import {
   Mail,
   X,
   ShieldCheckIcon,
-  ClockIcon,
-  CheckCircleIcon,
-  UsersIcon,
   StarIcon,
   MapPinIcon,
-  PhoneIcon,
-  MailIcon,
+  PhoneIcon as PhoneIconBase,
+  Mail as MailIconBase,
   FacebookIcon,
   LinkedinIcon,
-  TwitterIcon
+  TwitterIcon,
+  ClockIcon,
+  CheckCircleIcon,
+  UsersIcon
 } from "lucide-react";
 
 const XIcon = X;
-import { useState } from "react";
-import { Button } from '../../components/ui/button';
-import { Link } from 'react-router-dom';
-import { Card, CardContent } from "../../components/ui/card";
+const PhoneIcon = PhoneIconBase;
+const MailIcon = MailIconBase;
 
-export const HomePage = (): JSX.Element => {
+import { Button } from '@/components/ui/button';
+import { Card, CardContent } from "@/components/ui/card";
+
+export const HomePage: React.FC = () => {
   const [showFloatingIcons, setShowFloatingIcons] = useState(false);
   const navigate = useNavigate();
 
@@ -256,12 +259,14 @@ export const HomePage = (): JSX.Element => {
                 initial planning and design to project completion and handover. We take pride in our attention to detail, 
                 use of high-quality materials, and adherence to strict safety standards.
               </p>
-              <Button 
-                className="bg-[#FF10F0] hover:bg-[#e000d0] text-white px-8 py-6 text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105"
-                onClick={handleGetAQuote}
-              >
-                Learn More About Us
-              </Button>
+              <Link to="/certifications" className="flex justify-center">
+                <Button 
+                  className="bg-[#FF10F0] hover:bg-[#e000d0] text-white px-8 py-6 text-lg rounded-full font-semibold transition-all duration-300 hover:scale-105 w-[40%]"
+                  onClick={scrollToTop}
+                >
+                  Learn More About Us
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
